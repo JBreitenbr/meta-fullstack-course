@@ -31,15 +31,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    "polls.apps.PollsConfig",
-    "home.apps.HomeConfig",
-    "hello.apps.HelloConfig",
-    "autos.apps.AutosConfig",
-    "cats.apps.CatsConfig",
     "restaurant.apps.RestaurantConfig",
-    "rest_framework",
-    "snippets",
-    "music",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
